@@ -5,11 +5,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #FFFFFD;
     font-family: "Roboto", sans-serif;
+    background: rgb(255, 254, 246);
+    background: linear-gradient(180deg, rgba(255, 254, 246, 1) 24%, rgba(255, 249, 184, 1) 100%);
 }
 
-.main{
+.main {
     padding: 10px;
 }
 
@@ -27,73 +28,73 @@ body {
     display: flex;
 }
 
-.award img{
+.award img {
     width: 400px;
 }
 
-.hero-img img{
+.hero-img img {
     width: 100%;
 }
 
-.details p{
+.details p {
     margin: 3rem 0;
     text-align: center;
     font-size: 15px;
     font-weight: 500;
 }
 
-.tools{
+.tools {
     text-align: center;
 }
 
-.tools img{
+.tools img {
     width: 80%;
 }
 
-.tools p{
+.tools p {
     font-weight: 500;
     font-size: 16px;
 }
 
-.tools hr{
+.tools hr {
     border: 1px solid red;
 }
 
-.tools h3{
+.tools h3 {
     font-size: 16px;
 }
 
-.tools p{
+.tools p {
     font-size: 15px;
     line-height: 1.5rem;
 }
 
-.tools span{
-color: red;
-padding: 2px;
-font-weight: bold;
+.tools span {
+    color: red;
+    padding: 2px;
+    font-weight: bold;
 }
 
-footer{
+footer {
     background-color: rgb(228, 23, 23);
     color: white;
     padding: 30px 0;
     font-size: 16px;
-    
+
 }
 
-.icon-div{
+.icon-div {
     display: flex;
     justify-content: space-around;
 }
 
-.icons{
+.icons {
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
-.icons img{
+.icons img {
     width: 30px;
     background-color: white;
     padding: 2px;
@@ -102,65 +103,66 @@ footer{
 
 
 @media screen and (max-width: 576px) {
-    .main{
+    .main {
         padding: 0;
     }
+
     .logo-section {
         display: flex;
         justify-content: center;
         margin: 10px 0;
     }
-    
+
     .logo-section img {
         width: 300px;
     }
-    
+
     .body-section {
         display: flex;
         flex-direction: column;
     }
-    
-    .award img{
+
+    .award img {
         width: 100vw;
         height: 300px;
         object-fit: contain;
     }
-    
-    .right-side h4{
+
+    .right-side h4 {
         padding: 5px;
         text-align: center;
     }
 
-    .right-side li{
+    .right-side li {
         padding: 4px 10px;
         text-align: justify;
     }
 
-    .right-side p{
+    .right-side p {
         padding: 10px;
         line-height: 1.4rem;
         text-align: justify;
 
     }
 
-    .details p{
+    .details p {
         margin: 2rem 0;
         line-height: 1.5rem;
     }
-    
-    .tools{
+
+    .tools {
         padding: 10px;
     }
-    
-    .tools img{
+
+    .tools img {
         width: 100%;
     }
-    
-    .icon-div{
+
+    .icon-div {
         display: flex;
         flex-direction: column;
         padding: 15px;
     }
 
-    
+
 }
