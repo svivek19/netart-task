@@ -18,7 +18,7 @@ const App = () => {
         <div className='award'>
           <img src={Award} alt="award - image" />
         </div>
-        <div right-side>
+        <div className='right-side'>
           <h4> C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.</h4>
           <ul>
             <li> C.R.I.'s energy efficient products are well recognized by various Government Institutions, as trustworthy products for various projects across the globe to save energy.</li>

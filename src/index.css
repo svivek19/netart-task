@@ -99,3 +99,68 @@ footer{
     padding: 2px;
     border-radius: 50%;
 }
+
+
+@media screen and (max-width: 576px) {
+    .main{
+        padding: 0;
+    }
+    .logo-section {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    
+    .logo-section img {
+        width: 300px;
+    }
+    
+    .body-section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .award img{
+        width: 100vw;
+        height: 300px;
+        object-fit: contain;
+    }
+    
+    .right-side h4{
+        padding: 5px;
+        text-align: center;
+    }
+
+    .right-side li{
+        padding: 4px 10px;
+        text-align: justify;
+    }
+
+    .right-side p{
+        padding: 10px;
+        line-height: 1.4rem;
+        text-align: justify;
+
+    }
+
+    .details p{
+        margin: 2rem 0;
+        line-height: 1.5rem;
+    }
+    
+    .tools{
+        padding: 10px;
+    }
+    
+    .tools img{
+        width: 100%;
+    }
+    
+    .icon-div{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    
+}
