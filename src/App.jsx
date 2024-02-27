@@ -4,6 +4,10 @@ import Award from './asserts/1.png';
 import HeroImage from './asserts/2.png';
 import Tools from './asserts/3.png';
 
+import Web from './asserts/icon/web.png';
+import Call from './asserts//icon/call.png';
+import Facebook from './asserts/icon/facebook.png';
+
 const App = () => {
   return (
     <div className='main'>
@@ -36,6 +40,23 @@ const App = () => {
         <h3>C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</h3>
         <p>CHEMICALS & PROCESS <span>|</span> POWER WATER & WASTE WATER <span>|</span>  OILS & GAS <span>|</span> PHARMA <span>|</span> SUGARS & DISTILLERIES <span>|</span> PAPER & PULP <span>|</span> MARINE & DEFENCE <span>|</span> METAL & MINING <span>|</span> FOOD & BEVERAGE <span>|</span> PETROCHEMICAL & REFINERIES <span>|</span> SOLAR <span>|</span> BUILDING <span>|</span> HVAC <span>|</span> FIRE <span>|</span> FIGHTING AGRICULTURE & RESIDENTIAL</p>
       </div>
+
+      <footer>
+        <div className='icon-div'>
+          <div className='icons'>
+            <img src={Call} alt="call" />
+            <p>Toll free <span>1800 200 1234</span></p>
+          </div>
+          <div className='icons'>
+            <img src={Facebook} alt="facebook" />
+            <p>www.facebook.com/cripumps</p>
+          </div>
+          <div className='icons'>
+            <img src={Web} alt="web" />
+            <p>www.crigroups.com</p>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
